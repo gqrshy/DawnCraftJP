@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "こんにちは、冒険者よ。伝説の武器「Herrscher」と「Gesetz」は私の手の中にあり、君がその価値を示すまで、授けることはできない。"
+    }
+  }
+}

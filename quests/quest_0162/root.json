@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "やあ、こんにちは！"
+    },
+    "description": {
+      "text": "私は伝説の武器「Hanafubuki」を所持している。君にそれを授けるかどうかは、君の実力次第だ。"
+    }
+  }
+}

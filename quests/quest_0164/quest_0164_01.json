@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "不可能な仕事"
+    },
+    "description": {
+      "text": "君の準備が整っていることを示すには、2つの仕事をやり遂げてもらう必要があるよ。まずは「ハキリアリのさなぎ」を手に入れて、それを土の上に置いてハキリアリのコロニーを作ること。そして次に、カメの卵を守るための砂のお城を作るんだ。それができた時、初めてこの武器を君に授けよう。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "おめでとう！これがその武器だよ。シュルクの影響で、元の姿はすっかり飲み込まれて、まるで別物になっちゃったよ。"
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "ecologics:husbandry/sandcastle"
+    },
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "alexsmobs:alexsmobs/leafcutter_ant_pupa"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:moonless"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

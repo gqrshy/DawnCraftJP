@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "不可能な仕事"
+    },
+    "description": {
+      "text": "私が命じる2つの仕事を完遂するのだ。そして、その時こそ、私は君に強力な「Ruine」を授けることを考えるだろう。まずは肉を与えた後にトラからの祝福を受け、次にネザーの毒に満ちた廃墟でネザーリアクターを手に入れることだ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "これがその品だ。刃先には膨大な魔術式が封じ込められているんだ…"
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "alexsmobs:alexsmobs/tigers_blessing"
+    },
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "incendium:toxic_heap/nuclear_fusion"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:ruine"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

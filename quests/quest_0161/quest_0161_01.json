@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "不可能な仕事"
+    },
+    "description": {
+      "text": "「Antitheus」を使う権利を得るために、私の満足のいく形で2つの仕事を完遂するのだ：3人の他の乗客と一緒にリヴィアサンに乗り、ムーブルームを刈り取ることだ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "おめでとう！これがその品だ。このブラスターは、巨大なエネルギー源を詰め込んだ強力な一撃を放つんだ。"
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "alexsmobs:alexsmobs/laviathan_four_passengers"
+    },
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "friendsandfoes:husbandry/shear_a_moobloom"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:antitheus"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

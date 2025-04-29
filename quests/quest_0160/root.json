@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "私は伝説の武器「Spellbound Blaster」を手にしている。しかし、それを君に授ける前に、君がその価値を証明しなければならない。"
+    }
+  }
+}

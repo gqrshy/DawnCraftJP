@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "不可能な仕事"
+    },
+    "description": {
+      "text": "「エンダーブラスター」を託す前に、君がその価値を証明するために2つの仕事を完遂しなければならない：ネザーの地獄の砂丘からピプラインセンチュリを消し去り、完全に成熟したキノココロニーを刈り取ること。そのためには、豊かな土壌を作り出すことが必要だということを忘れないでくれ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "おめでとう、これがその品だ。このブラスターは、巨大なエネルギー源を詰め込んだ強力な一撃を放つんだ。"
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "incendium:infernal_dunes/pipeline/kill_sentry"
+    },
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "farmersdelight:main/get_mushroom_colony"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:ender_blaster"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    }
+  ]
+}

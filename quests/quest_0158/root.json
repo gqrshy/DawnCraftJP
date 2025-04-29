@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "私は伝説の剣「Torment」を手にしている。しかし、その忠誠を得るためには、君がその勇気と価値を示さねばならない。"
+    }
+  }
+}

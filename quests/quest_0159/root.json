@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "私は伝説の剣「Ruine」を手にしている。しかし、君がそれにふさわしいかどうかは、君がその実力と価値を証明した時に決まるだろう。"
+    }
+  }
+}

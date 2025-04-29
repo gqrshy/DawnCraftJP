@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "私は伝説の武器「Antitheus」を持っている。それを君のような戦士に渡すのは私の責任だ。しかし、君がその価値を証明するまでは、それを授けることはできない。"
+    }
+  }
+}

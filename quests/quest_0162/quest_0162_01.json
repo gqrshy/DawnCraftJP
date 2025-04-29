@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "不可能な仕事"
+    },
+    "description": {
+      "text": "この武器を手にするには、まず自分自身の力を証明しなければならない。魔女の小屋で魔女の依頼を達成し、群れからプーカを引き離して金のニンジンでなだめるのだ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "素晴らしい働きぶりだった！これがその武器だ。見た目は軽そうだけど、相当な殺傷力が秘められてるよ。"
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "habitat:husbandry/fae_whisperer"
+    },
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "biomemakeover:biomemakeover/witch_quest"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:satsujin"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}
