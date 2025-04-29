@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0065_01b",
+  "reputation": 7,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "ティップ・アロー"
+    },
+    "description": {
+      "text": "もう忘れたのかい？ $(red)12個のグローストーンダスト$()が欲しいって言ってたんだよ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ありがとう！お礼に矢を渡しておくよ。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:glowstone_dust"
+      },
+      "id": "quest_giver:gift",
+      "times": 12
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:arrow"
+      },
+      "id": "quest_giver:item",
+      "times": 35
+    }
+  ]
+}

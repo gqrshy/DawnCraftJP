@@ -1,0 +1,12 @@
+{
+  "reputation": 5,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "お邪魔します！ ちょっと手伝ってくれる？"
+    }
+  }
+}

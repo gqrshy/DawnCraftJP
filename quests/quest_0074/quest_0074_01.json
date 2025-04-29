@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "奇妙な依頼"
+    },
+    "description": {
+      "text": "1つ、君の$(red)スピリットオーブ$()をいただけるかな？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "この構造はちょっと複雑すぎるね… もう1つ、これをいただけるかな？"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ]
+}

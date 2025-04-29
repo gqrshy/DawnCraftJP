@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 7,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "ティップ・アロー"
+    },
+    "description": {
+      "text": "ティップ付きの矢を作ろうとしているんだ。$(red)グローストーンダスト12個$()を取ってきてもらえるかい？"
+    }
+  }
+}

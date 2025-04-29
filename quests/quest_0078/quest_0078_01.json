@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 48,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "異次元の石"
+    },
+    "description": {
+      "text": "難しいことは承知の上で…　　エンドに行ったら、$(red)エンドストーン$()を忘れずに持ってきてね。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "うーん…品質は…悪くないね。うまく使わせてもらうよ、ありがとう！"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:end_stone"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_mason",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    }
+  ]
+}

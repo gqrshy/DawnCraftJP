@@ -1,0 +1,12 @@
+{
+  "reputation": 28,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "エバードーン次元から$(red)ルナーストーン$()を持ってきてくれる？その品質が気になるんだ。"
+    }
+  }
+}

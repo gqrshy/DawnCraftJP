@@ -1,0 +1,12 @@
+{
+  "reputation": 14,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "こんにちは、友よ。ちょっと助けてくれないか？"
+    }
+  }
+}

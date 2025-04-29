@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "アロー・メイキング"
+    },
+    "description": {
+      "text": "矢を作るために羽が足りないんだ。$(red)羽$()を2枚取ってきてくれないか？終わったら、いくつか矢を渡すよ。"
+    }
+  }
+}

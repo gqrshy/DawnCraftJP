@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 2,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "ハサミ・クラフティング"
+    },
+    "description": {
+      "text": "$(red)ハサミ$()は手に入ったかな？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "いいね！"
+    },
+    "description": {
+      "text": "持ってきてくれてありがとう！"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:shears"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_shepherd",
+      "id": "quest_giver:command"
+    }
+  ]
+}

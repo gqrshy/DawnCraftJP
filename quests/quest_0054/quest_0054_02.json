@@ -1,0 +1,44 @@
+{
+	"parent": "quest_giver:quest_0054_01",
+	"reputation": 5,
+	"icon": "minecraft:wheat_seeds",
+	"start": {
+		"title": {
+			"text": "それで？"
+		},
+		"description": {
+			"text": "もし$(red)パン$()を2つ作れたら教えてね。急がなくて大丈夫だよ！"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "ありがとう！"
+		},
+		"description": {
+			"text": "本当にありがとう！これ、受け取ってくれるかな。大したものじゃないけど、今の自分にできる精一杯なんだ。"
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:bread"
+		},
+		"id": "quest_giver:gift",
+		"times": 2
+	}],
+	"rewards": [{
+			"command": "/advancement grant @p only custom:trade_farmer",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/addreputation reputation:villager @p 2",
+			"id": "quest_giver:command"
+		},
+		{
+			"item": {
+				"item": "minecraft:emerald"
+			},
+			"id": "quest_giver:item",
+			"times": 2
+		}
+	]
+}

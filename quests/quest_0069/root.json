@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "冒険者さん、もし準備できてたら、ちょっとしたお願いがあるんだ。"
+    }
+  }
+}

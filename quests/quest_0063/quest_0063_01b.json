@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "矢の職人技"
+    },
+    "description": {
+      "text": "トウヒの木材が矢の軸を作るのに一番だって知ってるか？まぁ、それはどうでもいいんだけど。4つの原木を取ってきてくれないか？"
+    }
+  }
+}

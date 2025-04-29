@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 28,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "異次元の石"
+    },
+    "description": {
+      "text": "$(red)ルナーストーン$()は手に入ったかな？エバードーンで見つけられるはずだよ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ありがとう。でも、この品質は…ちょっと期待外れだね。他の使い道を考えてみるよ。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "blue_skies:lunar_stone"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_mason",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:village @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

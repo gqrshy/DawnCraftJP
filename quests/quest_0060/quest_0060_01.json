@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0060_01b",
+  "reputation": 0,
+  "icon": "minecraft:oak_boat",
+  "start": {
+    "title": {
+      "text": "ボート作り"
+    },
+    "description": {
+      "text": "覚えておいてくれ、船は$(red)腐敗したバルサ材$()で作らないといけないんだ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "まあまあだね、もう少し手を加えれば完璧だけど、これで十分だよ、ありがとう。これが君への報酬だ、気に入ってくれるといいな。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "biomemakeover:blighted_balsa_boat"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_fisherman",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

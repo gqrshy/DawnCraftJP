@@ -1,0 +1,12 @@
+{
+  "reputation": 48,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "エンドに行くことがあったら、$(red)エンドストーン$()を持ってきてくれるかな？"
+    }
+  }
+}

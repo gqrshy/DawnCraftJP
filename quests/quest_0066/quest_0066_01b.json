@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 24,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "ヘルプ"
+    },
+    "description": {
+      "text": "$(red)ブラックベアの毛皮2つ$()を集めてきてくれ。集め終わったら戻ってきてくれよ。"
+    }
+  }
+}

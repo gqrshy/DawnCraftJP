@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 18,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "パチンコ・クラフティング"
+    },
+    "description": {
+      "text": "そうだ、パチンコ！僕も一度作ってみようとしたんだけど、作るための技術が足りなかったみたいなんだ。君、試してみてくれないか？"
+    }
+  }
+}

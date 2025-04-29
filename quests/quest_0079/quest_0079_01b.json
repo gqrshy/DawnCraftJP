@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "駆除依頼"
+    },
+    "description": {
+      "text": "クリーパーが夜になるともっと頻繁に湧くようになってきたんだ…　　私たちには直接害はないけど、かわいそうな子羊たちが怖がってしまうんだ。夜にクリーパーを駆除してくれる？6匹倒したら報酬を渡すよ。"
+    }
+  }
+}

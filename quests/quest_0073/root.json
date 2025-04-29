@@ -1,0 +1,12 @@
+{
+  "reputation": 8,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "こんにちは！エバーブライトやエバードーンの世界にはもう行ってみた？  もし行っていないなら、ちょっと手を貸してくれないかな？"
+    }
+  }
+}

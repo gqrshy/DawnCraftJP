@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 8,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "ヘルプ"
+    },
+    "description": {
+      "text": "すごいね。$(red)ハニーグレーズハム$()って料理、作ってくれたりする？オレたち、あの味が忘れられなくてさ、また食べたくてたまんないんだ。"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0059_01b",
+  "reputation": 4,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "タイムトラッキング"
+    },
+    "description": {
+      "text": "砂時計は手に入れたか？いつ頼んだのかさえ覚えてないよ。お願い、早くその砂時計が必要なんだ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとうね!"
+    },
+    "description": {
+      "text": "いい感じだね！さて…あれ？中身が入ってないじゃないか。どうやって使うんだろう？うーん… $(red)レッドストーンダスト$()をいくつか持ってきてくれないか？それを砂時計に入れるんだ。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "supplementaries:hourglass"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "ボート作りについて何か知ってるか？まぁ、どっちにしろ、手伝ってくれないか？"
+    }
+  }
+}

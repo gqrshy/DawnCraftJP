@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 24,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "ヘルプ"
+    },
+    "description": {
+      "text": "$(red)ホワイトベアの毛皮を2つ$()集めてきてほしいんだ。他のクマの種類より少し手強いかもしれないから、気をつけてね。手に入れたら戻ってきてくれると助かるよ。"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "タイムトラッキング"
+    },
+    "description": {
+      "text": "時間を計るのに役立つものがあるって聞いたんだ。あれはなんだったっけ…ああ、そうだ！$(red)砂時計$()だ！それを一つ手に入れてきてくれないか？"
+    }
+  }
+}

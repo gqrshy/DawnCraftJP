@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 40,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "貴重品の回収"
+    },
+    "description": {
+      "text": "申し訳ないんだけど、地図を描きたいから紙を1枚持ってきてくれないかな？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ここだよ。"
+    },
+    "description": {
+      "text": "お騒がせして申し訳ない。 ここが行ってほしい場所だ。かつて次元を超えた学者たちが集う寺院があったんだが、今はどうなっているかは知らないんだ。 慎重に進んで、私の本を持って来てください。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:librarian_ruin \"Librarian's Request\"",
+      "id": "quest_giver:command"
+    },    
+    {
+      "command": "/loot give @p loot minecraft:librarian1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p librarian1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

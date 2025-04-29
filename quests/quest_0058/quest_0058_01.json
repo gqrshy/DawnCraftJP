@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0058_01b",
+  "reputation": 15,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "ハンティング・リクエスト"
+    },
+    "description": {
+      "text": "(サメの攻撃方法がそうではないことに気づく。実際、$(red)ハンマーヘッドシャーク$()など、最もおとなしいサメの種類だけが死ぬと歯を落とすことがある。しかし、あなたは黙っていることに決めた)"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ははは…このお守りに妹の名前を刻んで、ペンダントとして身に着けることにしよう。ありがとう、冒険者よ。これが君への報酬だ。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "alexsmobs:shark_tooth"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:salmon"
+      },
+      "id": "quest_giver:item",
+      "times": 6
+    }
+  ]
+}

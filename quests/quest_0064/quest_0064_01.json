@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0064_01b",
+  "reputation": 18,
+  "icon": "supplementaries:slingshot",
+  "start": {
+    "title": {
+      "text": "パチンコ・クラフティング"
+    },
+    "description": {
+      "text": "$(red)パチンコ$()は作れない？まぁ、わかるよ…良いものを作るのはなかなか難しいからね。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "うん、まさに想像していた通りだね！うーん…でも、あまり印象的じゃないかな。石を弾として使うみたいだし…。まあ、これを渡しておくよ、別に私は必要ないから。見せてくれてありがとう！"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "supplementaries:slingshot"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "supplementaries:slingshot"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

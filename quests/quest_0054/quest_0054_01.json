@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0054_01b",
+  "reputation": 5,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "それで？"
+    },
+    "description": {
+      "text": "$(red)鉄のクワ$()は手に入れたかい？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ああ、取ってきてくれたんだね…本当に感謝しているよ。もう一つお願いするのは心苦しいんだけど…$(red)パン$()を2つ作ってくれないかな？僕たちは育てたり収穫したりするのは得意なんだけど、作るのは苦手でね。畑の小麦は自由に使っていいから！"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_hoe"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ]
+}

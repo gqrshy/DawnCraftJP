@@ -1,0 +1,45 @@
+{
+  "parent": "quest_giver:quest_0079_01b",
+  "reputation": 0,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "駆除依頼"
+    },
+    "description": {
+      "text": "早急にクリーパー駆除の仕事を終わらせてくれ。私の子羊たちに影響が出ているんだ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "よくやった。 まだたくさん残っているけど、今はあまり見かけなくなった気がする。 これがご褒美だ。"
+    }
+  },
+  "tasks": [
+    {
+      "entity": "minecraft:creeper",
+      "id": "quest_giver:kill",
+      "times": 6
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_shepherd",
+      "id": "quest_giver:command"
+    }
+  ]
+}

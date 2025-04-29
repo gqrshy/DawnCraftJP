@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "釣り竿を作る"
+    },
+    "description": {
+      "text": "僕の釣り竿がもうすぐ壊れそうなんだ…新しいのを作ってくれないか？いつもの職人が最近町を離れているんだ。"
+    }
+  }
+}

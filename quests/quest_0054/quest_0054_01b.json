@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "それで？"
+    },
+    "description": {
+      "text": "道具がだいぶくたびれてきててね…$(red)鉄のクワ$()を取ってきてくれないかな？"
+    }
+  }
+}
