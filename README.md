@@ -1,10 +1,10 @@
 # DawnCraftJP
 大型modpackであるDawnCraft - 2.0.15(2025 4/29時点で最新)の日本語化ファイルです。
-翻訳には「Claude 3.7　Sonnet」を利用しています。
+> 翻訳には「Claude 3.7　Sonnet」を利用しています。
 
 ## 概要
 
-製作者：gashi
+製作者：[Gashi](https://gqrshy.github.io/GashiStudios/)
 当該リソースパックはDawnCraft製作者陣とは関係の無い有志翻訳です。
 この翻訳リソースパック等についてDawnCraft製作者やDiscordコミュニティへ問い合わせを行うのはお控えください。
 
