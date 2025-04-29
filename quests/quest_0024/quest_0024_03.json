@@ -1,0 +1,32 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 5,
+	"icon": "minecraft:crossbow",
+	"start": {
+		"title": {
+			"text": "自発的な追放"
+		},
+		"description": {
+			"text": "サイドチャレンジを出すよ：ピリジャーキャプテンを倒してきて！ 戻ってくる前にミルクを飲むのを忘れないでね… あいつらを連れて帰ってきたら、お前のこと殺すからな！"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "自発的な追放: Complete"
+		},
+		"description": {
+			"text": "よくやった。えっと、待って…　ミルク、　ちゃんと飲んだよね？"
+		}
+	},
+	"tasks": [{
+		"id": "dawncraft:advancement",
+		"advancement": "minecraft:adventure/voluntary_exile"
+	}],
+	"rewards": [{
+		"id": "quest_giver:item",
+		"item": {
+			"item": "minecraft:emerald",
+			"count": 2
+		}
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	"parent": "quest_giver:quest_0014_01b",
+	"reputation": 5,
+	"icon": "minecraft:enchanted_book",
+	"start": {
+		"title": {
+			"text": "最初の任務"
+		},
+		"description": {
+			"text": "必要な条件を満たしたら戻ってきてね。 - $(red)ピリジャー10体を倒す$()。"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "最初の任務"
+		},
+		"description": {
+			"text": "おお！倒してくれたんだね。プレゼントしたオーブを使って、$(green)女神像$()から最初の加護を受けてみてね。　そうそう、新しいスキルを学びたいなら、ここにいる衛兵たちと話してみるといいよ。　君の旅に幸あらんことを。"
+		}
+	},
+	"tasks": [{
+		"entity": "minecraft:pillager",
+		"id": "quest_giver:kill",
+		"times": 10
+	}],
+	"rewards": [{
+		"item": {
+			"item": "paraglider:spirit_orb"
+		},
+		"id": "quest_giver:item",
+		"times": 4
+		},
+		{
+			"command": "/dc addWaypoint @p goblinsanddungeons:ruined_keep \"Main Quest - Goblin King's Keep\"",
+			"id": "quest_giver:command"
+		}, 
+        {
+          "command": "/loot give @p loot minecraft:guildmaster0",
+          "id": "quest_giver:command"
+        },
+        {
+           "command": "/gamestage add @p guildmaster2 true",
+            "id": "quest_giver:command"
+        }]
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "quest_giver:quest_0024_01",
+  "reputation": 6,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "迷子"
+    },
+    "description": {
+      "text": "どうか子供を助け出して、ここに連れて帰ってきてください。"
+    }
+
+  },
+  "complete": {
+    "title": {
+      "text": "迷子: Complete"
+    },
+    "description": {
+      "text": "君がしたことは英雄的だ、冒険者。私たちは君が私たちのためにしてくれたことを決して忘れない。さあ、君に新しい戦闘技術「デス・ハーベスト」を教えよう。"
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:follow_quest",
+       "structure": "#minecraft:village"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:death_harvest\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

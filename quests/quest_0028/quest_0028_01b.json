@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "素晴らしい！"
+    },
+    "description": {
+      "text": "この世界には、蒸気が沸騰した温泉の上を流れ、魔法の霧が山全体を覆うバイオームがあると言われているんだ。勇敢な冒険者よ、もしそんな場所に出会ったら、ぜひ戻ってきて実際にどうだったか教えてくれ！"
+    }
+  }
+}

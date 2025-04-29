@@ -1,0 +1,29 @@
+{
+  "parent": "quest_giver:quest_0014_01",
+  "reputation": 10,
+  "icon": "minecraft:compass",
+  "start": {
+    "title": {
+      "text": "放置されたアイ"
+    },
+    "description": {
+      "text": "私の知る限り、現在、アイホルダーに守られていないアイが7つ存在しているんだ。構造物で見つかるものには「呪われたアイ」と「古のアイ」がある。その他のアイについては…　持論ではあるが、ほとんどは知性を持つモンスターに盗まれた可能性がある。まあ、地元の村人は私より詳しいかもしれません。なぜなら、私だけが知っているんだ。聖職者の村人が「邪悪なアイ」を所持していることを。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "放置されたアイ"
+    },
+    "description": {
+      "text": "もう目を探す必要はないと思うよ？"
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "minecraft:end/kill_dragon"
+    }
+  ],
+  "rewards": [
+  ]
+}

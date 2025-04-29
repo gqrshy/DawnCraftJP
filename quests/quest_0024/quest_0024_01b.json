@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 6,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "ヘルプ"
+    },
+    "description": {
+      "text": "ピリジャーたちが村から子供を誘拐してしまった… どうか助け出して、家に連れて帰ってきてくれ。ここにいる衛兵たちは巡回の任務で手一杯で、君が唯一の希望なんだ。"
+    }
+  }
+}

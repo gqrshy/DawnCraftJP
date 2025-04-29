@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 6,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "Extermination Task"
+    },
+    "description": {
+      "text": "鷲の頭、馬体を持つ化け物に出会ったことはあるか？ グリフィンと呼ばれているんだが。やつが農場を荒らし、家族を怖がらせているんだ。グリフィンを倒して、その羽を持ってきてくれないか？ 心配しないで、たっぷり報酬を払うよ… こんな危険な化け物に挑む君のリスクをよくわかっているからね。"
+    }
+  }
+}

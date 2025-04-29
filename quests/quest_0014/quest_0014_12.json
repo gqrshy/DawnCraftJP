@@ -1,0 +1,29 @@
+{
+  "parent": "quest_giver:quest_0014_11",
+  "reputation": 10,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "終わり…はただの始まり？？"
+    },
+    "description": {
+      "text": "知りたいなら仕方がない…　エンダードラゴンを堕落させた神…　そう、神はまだ生きている。だが、その存在は君にとってもあまりにも強大すぎる。　彼にたどり着くための地図はエンダーガーディアンが持っている。エンダーガーディアンの場所については…　エンダリアンの村人が手がかりを持っているかもしれない。だが、ここまで追及することはお勧めしない。君はもう十分にやり遂げたんだから。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "The True Ending"
+    },
+    "description": {
+      "text": "私は…　君の実力を見誤っていた。　君は、本当に、唯一無二の存在だ。                                      - End of Main Quest -"
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "simple_mobs:killelementaldeity"
+    }
+  ],
+  "rewards": [
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "parent": "quest_giver:quest_0014_09",
+  "reputation": 10,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "旅路の終わり"
+    },
+    "description": {
+      "text": "もう君に伝える情報はない、友よ。自分の運命に従いなさい。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "終わり…はただの始まり？？"
+    },
+    "description": {
+      "text": "それで…君はドラゴンを倒したんだね。つまりは君が新たな領主ということになるだろう。　おめでとう、勇敢な征服者よ。君は…　　君はできることをすべてやり遂げたのかな？"
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "minecraft:end/kill_dragon"
+    }
+  ],
+  "rewards": [
+  ]
+}

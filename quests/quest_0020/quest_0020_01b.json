@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "助けてほしい！"
+    },
+    "description": {
+      "text": "しばらく前に、君のような冒険者が私にお願いをしてきたんだ。私はうまく助けられなかったけど… もしかしたら君ならできるかもしれない。紙を一枚持ってきてくれ。彼の場所への地図を描いてあげるよ。"
+    }
+  }
+}

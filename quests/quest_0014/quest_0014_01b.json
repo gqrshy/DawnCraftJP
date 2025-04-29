@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:enchanted_book",
+  "start": {
+    "title": {
+      "text": "まずは基礎から"
+    },
+    "description": {
+      "text": "ああ…　今の君じゃアイを見つけることは絶対に無理だよ。$(red)ピリジャー10体$()を倒してからだね。そのあと君の旅の準備を整えるための「プレゼント」を渡すよ。"
+    }
+  }
+}

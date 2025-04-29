@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:poppy",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "$(red)ソウルウィード$()を1つ取ってきてくれないか？ネザーで見つかるはずだ。"
+    }
+  }
+}

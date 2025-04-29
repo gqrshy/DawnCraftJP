@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0024_01b",
+  "reputation": 6,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "また会ったね！"
+    },
+    "description": {
+      "text": "あ、もう少しで忘れるところだった。紙を一枚持ってきてくれないか？ 彼らの隠れ家の場所を記しておくよ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ここだよ。"
+    },
+    "description": {
+      "text": "ほら。早くしてくれ！ 彼らがその子をどうしようとしているのか分からないんだ。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+	{
+		"command": "/dc addWaypoint @p quest_giver:pillager_hideout \"Rescue Request - Pillager Hideout\"",
+		"id": "quest_giver:command"
+	}, 
+    {
+      "command": "/loot give @p loot minecraft:guard1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guard1 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

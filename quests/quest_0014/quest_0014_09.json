@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0014_08",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "道の終わり"
+    },
+    "description": {
+      "text": "烈火の巨人はいきなり私たちの世界から姿を消したんだ。彼がこの世界を去る前に、この髪の毛を拾った。神官たちがそのアイテムに魔法をかけ、恐らく祭壇に捧げることで奴を召喚できるはずだ。もし髪の束を失ってしまった場合は、火薬と耐火のポーションを醸造台で混ぜ合わせて作れるよ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "道の終わり"
+    },
+    "description": {
+      "text": "ハハ、言葉も出ない…　これで遂に終わりだ、冒険者よ。君はすべてのアイホルダーを倒した。もしすでに12個のアイを手に入れているなら、エンドゲートウェイを探すことだな。神のご加護を！"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:corrupted_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:village @p 10",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0014_01",
+  "reputation": 10,
+  "icon": "minecraft:emerald",
+  "start": {
+    "title": {
+      "text": "もう終わったよ！"
+    },
+    "description": {
+      "text": "え？　地図を渡す前にもうアイホルダーを倒したのか？　ふむ…じゃあ、落とした目を見せてくれ。それを一度落としてからもう一度拾ってみてくれ…　理由は聞かないでくれよ！"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "旅路の終わり"
+    },
+    "description": {
+      "text": "もう君に伝える情報はない、友よ。自分の運命に従いなさい。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:corrupted_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ]
+}

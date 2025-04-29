@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "助けてほしい！"
+    },
+    "description": {
+      "text": "採掘していた時、幽霊に出会ったんだ… その夜は恐ろしいもので、周りにモンスターが次々と湧いてきたけど、この同志の霊が私を守ってくれた。村に向かう前に、その霊は冒険者を探して、彼を連れてくるように言ったんだ。"
+    }
+  }
+}

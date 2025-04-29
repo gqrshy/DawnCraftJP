@@ -1,0 +1,12 @@
+{
+  "reputation": 20,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "よお!"
+    },
+    "description": {
+      "text": "よお、坊主！ 少しチャレンジしてみないか？"
+    }
+  }
+}

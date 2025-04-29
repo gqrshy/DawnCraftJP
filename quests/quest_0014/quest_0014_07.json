@@ -1,0 +1,48 @@
+{
+  "parent": "quest_giver:quest_0014_06",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "アイホルダーへの道"
+    },
+    "description": {
+      "text": "次のアイホルダーはアンデッドだ。正確には、マシな脳みそを持ってるアンデッドだ…　彼は従者に囲まれているから、バトるのに苦労するかもしれないよ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "アイホルダーへの道"
+    },
+    "description": {
+      "text": "スケルトン・ロードはおそらく、私が今まで見た中で最も強力なアンデッドだ。君が倒したことに心底驚いているよ。次のアイは気高き聖騎士に守られている。君ならうまくやれるとは思うけど...　ま、まあとにかく、その場所を教えるよ。気をつけて行ってきてくれ。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:magical_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+	{
+		"command": "/dc addWaypoint @p custom:sentinel_tree \"Main Quest - Guardian Tree\"",
+		"id": "quest_giver:command"
+	},
+    {
+      "command": "/loot give @p loot minecraft:guildmaster5",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:skeleton_lord_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster7 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

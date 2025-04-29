@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 20,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "スピリット・ハンティング"
+    },
+    "description": {
+      "text": "精霊は世界にさまざまな形で現れることがあるんだ。時にはアイテムや剣、さらには鎧に取り憑くことも！ $(red)5体の取り憑かれた…　または空っぽの鎧$()を倒してきてくれよ！　やってくれたらイイ報酬を渡すよ。どうだい？"
+    }
+  }
+}

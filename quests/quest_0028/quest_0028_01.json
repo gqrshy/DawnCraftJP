@@ -1,0 +1,37 @@
+{
+  "parent": "quest_giver:quest_0028_01b",
+  "reputation": 0,
+  "icon": "minecraft:oak_sapling",
+  "start": {
+    "title": {
+      "text": "Haze Mountain"
+    },
+    "description": {
+      "text": "おい、神秘的なバイオーム　$(red)ヘイズマウンテン$()はもう見つけたか？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "そうなのか？"
+    },
+    "description": {
+      "text": "そうか… 正直言って、ちょっとがっかりだよ。ヘイズマウンテンにはドラゴンが住んでいると思っていたんだけど… まあ、少なくともただの夢物語だって分かったから、ありがとう。"
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "custom:magical_spring"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_armorer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    }
+  ]
+}
