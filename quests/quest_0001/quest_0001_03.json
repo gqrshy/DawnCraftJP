@@ -1,0 +1,49 @@
+{
+  "parent": "quest_giver:quest_0001_02",
+  "reputation": 5,
+  "icon": "minecraft:blast_furnace",
+  "start": {
+    "title": {
+      "text": "Hey there."
+    },
+    "description": {
+      "text": "やあ。ペンダントは見つかった？奴らはたいてい貴重品をテーブルの下に隠すんだ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Finally..."
+    },
+    "description": {
+      "text": "ついに、フアン…取り戻したよ…誓いを破らずに済んだ…ああ、これを受け取って。ありがとう、本当に感謝してる。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:armorers_pendant"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+ 	   "type": "minecraft:item_nbt",
+           "item": "minecraft:iron_chestplate",
+           "nbt":  "{display:{Name:'[{\"text\":\"Oathkeeper\",\"italic\":false}]',Lore:['[{\"text\":\"A chestplate the armorer specifically made for his champion.\",\"italic\":false}]']},Enchantments:[{id:mending,lvl:1},{id:protection,lvl:2}]}"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_armorer",
+      "id": "quest_giver:command"
+    },    
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

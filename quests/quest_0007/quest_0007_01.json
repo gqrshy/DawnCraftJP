@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "それで？"
+    },
+    "description": {
+      "text": "矢細工台の使い方を学ぶために10エメラルドだよ、かなり安いでしょ？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "どうぞ 矢作りを楽しんでください！"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 10
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add archery level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

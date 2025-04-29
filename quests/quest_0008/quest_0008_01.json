@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0008_01b",
+  "reputation": 13,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "それで？"
+    },
+    "description": {
+      "text": "え？ああ、忘れてたのか。僕が頼んでいたのは$(red)ライオンの皮4枚$()だよ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ありがとう。 ここで、君と取引できて嬉しいよ。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "untamedwilds:hide_bigcat_lion"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_leatherworker",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:arrow"
+      },
+      "id": "quest_giver:item",
+      "times": 8
+    }
+  ]
+}

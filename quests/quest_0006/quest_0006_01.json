@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "釣り竿のロックを解除する"
+    },
+    "description": {
+      "text": "釣りについて学ぶ準備はできていますか？ エメラルドを15個くれ！"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "それほど難しくはないだろう？ あまり振り回さないでね、魚が怖がるから。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 15
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add fishing level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

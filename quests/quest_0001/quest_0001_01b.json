@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "フェッチ・ミー・サムシング"
+    },
+    "description": {
+      "text": "何か必要なんだ！$(red)鉄インゴット4個$()を取ってきてもらえないかな？鎧を作る材料が足りなくなってきたんだ…いつか必ずお礼をするよ！"
+    }
+  }
+}

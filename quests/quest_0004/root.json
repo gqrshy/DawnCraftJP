@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "そこの冒険者、$(red)ゾンビの肉5個$()を取ってきてくれない？ポーションを作るために必要なんだ。"
+    }
+  }
+}

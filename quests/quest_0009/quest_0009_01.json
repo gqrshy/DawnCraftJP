@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0009_01b",
+  "reputation": 14,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "収集依頼"
+    },
+    "description": {
+      "text": "$(red)イカ墨4個$()を集めたら戻ってきてくれ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ありがとう。残念ながら、紙のも残り少なくなっていることがわかったんだ…。紙を10枚手に入れてもらえるかな？すぐに再入荷する予定だけど、君の協力に本当に感謝するよ。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:ink_sac"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

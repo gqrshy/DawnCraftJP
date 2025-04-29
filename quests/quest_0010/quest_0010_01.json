@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "それで？"
+    },
+    "description": {
+      "text": "なんて言うんだ？ 10エメラルドで石切台の使い方を学べるよ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "よかったな！"
+    },
+    "description": {
+      "text": "これで建築が楽になるな！"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 10
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add woodcutting level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p StoneCutter",
+      "id": "quest_giver:command"
+    }
+  ]
+}

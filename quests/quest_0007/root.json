@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "たった10エメラルドで矢細工台の使い方を教えているんだ。 どうだい？"
+    }
+  }
+}

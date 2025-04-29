@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 13,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "ヘルプ"
+    },
+    "description": {
+      "text": "君の仕事について良い話を聞いたよ。異国の品をいくつか集めてきてほしいんだ、具体的には$(red)ライオンの皮$()が4枚だ。品物を揃えたら戻ってきてくれ。"
+    }
+  }
+}

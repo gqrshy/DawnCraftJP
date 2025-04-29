@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "お願い事"
+    },
+    "description": {
+      "text": "ありがたい！うちの狩人たちがウサギを捕まえてから、もうだいぶ経つんだ…もし君が持っている$(red)ウサギの足$()を分けてくれたら、本当に感謝するよ。"
+    }
+  }
+}

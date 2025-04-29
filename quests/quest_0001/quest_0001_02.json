@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0001_02b",
+  "reputation": 5,
+  "icon": "minecraft:iron_helmet",
+  "start": {
+    "title": {
+      "text": "また会ったね？"
+    },
+    "description": {
+      "text": "また会ったね！もう紙を取ってきてくれた？君に地図を描いてあげたいんだ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Here."
+    },
+    "description": {
+      "text": "さて、ここだ。この場所には、病んで正気を失ったハンターたちが巣食う家がある… 僕の親しい友人の一人が彼らの居場所を突き止めて、地図に記してくれたんだ。きっと奴らは、敵から奪った戦利品を溜め込んでいるに違いない…奴らを倒して、戦利品を手に入れてくれ。それと、もしできれば、奴らが僕から盗んだネックレスも探してほしい。彼らは物をテーブルの下に隠すのが好きだから、探してみて。ネックレスを取り戻してくれたら、できる限りのお礼をするよ！"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:armorer_dungeon \"Armorer's Request\"",
+      "id": "quest_giver:command"
+    },  
+    {
+      "command": "/loot give @p loot minecraft:armorer1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p armorer1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

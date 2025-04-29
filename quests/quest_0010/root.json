@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "石切台の使い方を学びたいかい？ たったの10エメラルドで教えるよ！"
+    }
+  }
+}

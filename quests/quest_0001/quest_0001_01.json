@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0001_01b",
+  "reputation": 5,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "フェッチ・ミー・サムシング"
+    },
+    "description": {
+      "text": "やあ！ もう$(red)鉄インゴット４個$()は手に入ったかい？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "これでやっとあの衛兵の鎧を作ってあげられるよ...。 彼は黙っていなかった！ 今は何もないけど、いつか必ず返すよ！"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "やあ！ バケツにミルクを汲んできてくれないか？ 味見したいんだ。"
+    }
+  }
+}

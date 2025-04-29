@@ -1,0 +1,12 @@
+{
+  "reputation": 13,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "冒険家よ、おつかいを頼まれてくれないか。"
+    }
+  }
+}
