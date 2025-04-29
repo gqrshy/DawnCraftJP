@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "私の手の中には、伝説の剣「Agony」がある。しかし、その力を使うには、君の実力を私に示さねばならない。"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 2,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "退屈しているようだね。少しお話でもどうだい？きっと君にも得るものがあるはずさ。"
+    }
+  }
+}

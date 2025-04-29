@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "うん？"
+    },
+    "description": {
+      "text": "忙しいんだけど...何の用？あぁ...戦闘スキルのことか？"
+    }
+  }
+}

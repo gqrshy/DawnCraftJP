@@ -1,0 +1,32 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 15,
+	"icon": "minecraft:iron_sword",
+	"start": {
+		"title": {
+			"text": "それで？"
+		},
+		"description": {
+			"text": "パリィを20エメラルドで教えられるんだけど…どうする？"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "ありがとう！"
+		},
+		"description": {
+			"text": "ほら、冒険者さん、どうぞ！"
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:emerald"
+		},
+      "id": "quest_giver:gift",
+      "times": 20
+	}],
+	"rewards": [{
+		"command": "give @p epicfight:skillbook{skill:\"epicfight:parrying\"}",
+		"id": "quest_giver:command"
+	}]
+}

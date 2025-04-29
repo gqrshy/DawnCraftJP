@@ -1,0 +1,32 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 15,
+	"icon": "minecraft:iron_sword",
+	"start": {
+		"title": {
+			"text": "それで？"
+		},
+		"description": {
+			"text": "25個のエメラルドで「シャドウステップ」ってスキルを教えてあげるよ。どうする？"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "ありがとう！"
+		},
+		"description": {
+			"text": "怖い技だよね、これ。"
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:emerald"
+		},
+      "id": "quest_giver:gift",
+      "times": 25
+	}],
+	"rewards": [{
+		"command": "give @p epicfight:skillbook{skill:\"wom:shadow_step\"}",
+		"id": "quest_giver:command"
+	}]
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 7,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "やあ、ちょっと話す時間あるかい？君にとってはきっと価値がある話だと思うよ。"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 15,
+	"icon": "minecraft:iron_sword",
+	"start": {
+		"title": {
+			"text": "それで？"
+		},
+		"description": {
+			"text": "20個のエメラルドで「剣の舞」ってスキルを教えてあげるよ。信じて、これだけの価値はあるから！"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "ありがとう！"
+		},
+		"description": {
+			"text": "素晴らしい選択だ！ 幸運を祈る。"
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:emerald"
+		},
+      "id": "quest_giver:gift",
+      "times": 20
+	}],
+	"rewards": [{
+		"command": "give @p epicfight:skillbook{skill:\"wom:dancing_blade\"}",
+		"id": "quest_giver:command"
+	}]
+}

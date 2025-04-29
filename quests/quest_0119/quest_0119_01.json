@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0119_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "ドラゴン・ハート"
+    },
+    "description": {
+      "text": "アイスドラゴンを一度だけ見たことがあるんだ。あれは本当に恐ろしい存在だったよ…でも、その本質には信じられないほどの魅力があるんだ。どうしてもその中に秘められた元素を調べたいんだ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "素晴らしい！これが君への報酬だ。さて、私はこれから研究に取りかからないとね。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:icedragon_heart"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_oceanographer",
+      "id": "quest_giver:command"
+    }
+  ]
+}

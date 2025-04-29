@@ -1,0 +1,32 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 15,
+	"icon": "minecraft:iron_sword",
+	"start": {
+		"title": {
+			"text": "それで？"
+		},
+		"description": {
+			"text": "「エンダーオブスキュリス」ってスキルを20個のエメラルドで教えてあげるよ。これで大丈夫？"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "ありがとう！"
+		},
+		"description": {
+			"text": "はい、どうぞ。村人たちを怖がらせないように気をつけてね！"
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:emerald"
+		},
+      "id": "quest_giver:gift",
+      "times": 20
+	}],
+	"rewards": [{
+		"command": "give @p epicfight:skillbook{skill:\"wom:ender_obscuris\"}",
+		"id": "quest_giver:command"
+	}]
+}

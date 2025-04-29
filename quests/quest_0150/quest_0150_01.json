@@ -1,0 +1,32 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 15,
+	"icon": "minecraft:iron_sword",
+	"start": {
+		"title": {
+			"text": "それで？"
+		},
+		"description": {
+			"text": "30個のエメラルドで「エンダーステップ」ってスキルを教えてあげるよ。どうする？"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "ありがとう！"
+		},
+		"description": {
+			"text": "これは伝説の存在、「ツインズ」から受け継がれたスキルだよ。エンドで彼らに会えるって聞いたけどね…"
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:emerald"
+		},
+      "id": "quest_giver:gift",
+      "times": 30
+	}],
+	"rewards": [{
+		"command": "give @p epicfight:skillbook{skill:\"wom:ender_step\"}",
+		"id": "quest_giver:command"
+	}]
+}

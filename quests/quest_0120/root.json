@@ -1,0 +1,12 @@
+{
+  "reputation": 19,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "冒険者たちが強大な存在を召喚するために集まる場所を知ってるんだ。   興味あるかい？"
+    }
+  }
+}

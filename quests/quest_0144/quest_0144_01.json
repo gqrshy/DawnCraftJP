@@ -1,0 +1,32 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 15,
+	"icon": "minecraft:iron_sword",
+	"start": {
+		"title": {
+			"text": "それで？"
+		},
+		"description": {
+			"text": "15個のエメラルドで「回避の達人」ってスキルを教えてあげるよ。どうする？"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "ありがとう！"
+		},
+		"description": {
+			"text": "はい、どうぞ。これ、使いこなすのはめちゃくちゃ難しいけど、ちゃんと決まればすごく効果的なんだ。"
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:emerald"
+		},
+      "id": "quest_giver:gift",
+      "times": 15
+	}],
+	"rewards": [{
+		"command": "give @p epicfight:skillbook{skill:\"wom:dodge_master\"}",
+		"id": "quest_giver:command"
+	}]
+}

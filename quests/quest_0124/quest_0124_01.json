@@ -1,0 +1,45 @@
+{
+  "parent": "quest_giver:quest_0124_01b",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "不可能な仕事"
+    },
+    "description": {
+      "text": "もうオルカの祝福を受け取ったかい？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "面白い…そうやってやるんだね。君は本当に魅力的な人物だ。君に出会えてよかったよ！さて、私は行かなくちゃ…　　　　神のご加護を"
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "alexsmobs:alexsmobs/orcas_might"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:rootless \"Floating Palace\"",
+      "id": "quest_giver:command"
+    },  
+    {
+      "command": "/loot give @p loot minecraft:hunter1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p hunter1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

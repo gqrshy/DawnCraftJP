@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "不可能な仕事！"
+    },
+    "description": {
+      "text": "君に2つの仕事を頼むよ：高貴なサンバードから祝福を受け、ミュータントスノーゴーレムを召喚すること。それができたら、「Agony」を渡すことを考えよう。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "素晴らしい！受け取ってくれ。前の持ち主は凶暴な獣に倒された。君の運命が彼とは違うことを祈るよ。"
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "mutantmonsters:frosty_the_snow_golem"
+    },
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "alexsmobs:alexsmobs/sunbird_blessing"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:agony"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

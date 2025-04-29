@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 7,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "アドバイス"
+    },
+    "description": {
+      "text": "知ってたかい？フロストモーが、イエティが守ってたコールドアイを奪っちゃったんだってさ！旅人たちから何度も聞いた話だし、きっと本当だよ…ほんと、世の中ってめちゃくちゃだよな。"
+    }
+  }
+}
