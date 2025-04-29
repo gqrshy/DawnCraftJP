@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:pumpkin",
+  "start": {
+    "title": {
+      "text": "カボチャの詰め物"
+    },
+    "description": {
+      "text": "$(yellow)詰め物入りのカボチャ$()はもう調理したかい？心配しないで、時間がかかるのは分かっているよ！"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとうね"
+    },
+    "description": {
+      "text": "その匂い、サイコーだな！本当にありがとう、これで家族も喜ぶよ。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "farmersdelight:stuffed_pumpkin_block"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_butcher",
+      "id": "quest_giver:command"
+    }
+  ]
+}

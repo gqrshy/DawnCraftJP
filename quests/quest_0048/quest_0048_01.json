@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 25,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "それで？"
+    },
+    "description": {
+      "text": "あなたの力を借りたい。魔女の帽子を手に入れてきてくれ。どれでも構わないよ。魔女たちはなかなかそれを落とさないからね。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "あはははは!"
+    },
+    "description": {
+      "text": "愚か者め！今こそこの村に破滅をもたらそう！私の犠牲がこの村の終焉をもたらすなら、栄光を感じるまでだ！"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "biomemakeover:witch_hat"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:tricked/tricked",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/execute as @a[advancements={custom:tricked/tricked=true},sort=nearest,limit=1] run function witch:start_witch_raid",
+      "id": "quest_giver:command"
+    }
+  ]
+}

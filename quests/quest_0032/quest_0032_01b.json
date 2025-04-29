@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "ちょっとした手助け"
+    },
+    "description": {
+      "text": "いいやつだ！ なんとかして$(red)鉄のナイフ$()を手に入れてくれないか？ 俺のが壊れちまったんだ…"
+    }
+  }
+}

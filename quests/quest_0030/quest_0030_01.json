@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0030_01b",
+  "reputation": 12,
+  "icon": "minecraft:iron_helmet",
+  "start": {
+    "title": {
+      "text": "溶鉱炉の作成"
+    },
+    "description": {
+      "text": "ねえ、もう溶鉱炉を作ったか？ 盗むんじゃなくて、クラフトするんだぞ！"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ええね!"
+    },
+    "description": {
+      "text": "よし！ この新しい溶鉱炉で、もっと良い装備が作れるようになるよ。ありがとう！"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:blast_furnace"
+      },
+      "id": "quest_giver:craft",
+      "times": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:blast_furnace"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_armorer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

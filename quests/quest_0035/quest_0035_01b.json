@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "包丁研ぎ"
+    },
+    "description": {
+      "text": "私は包丁用の良い砥石を探しています。地下にある深層岩という素材が研ぎに最適だという良い評判を聞きました。$(red)それらの深層岩石を3つ$()集めてきてくれませんか？"
+    }
+  }
+}

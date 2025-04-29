@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "製図台のロック解除"
+    },
+    "description": {
+      "text": "うーん、わかったよ。エメラルドを15個くれたら、使い方を教えてあげるよ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "さあ、どうぞ"
+    },
+    "description": {
+      "text": "テーブルの上の道具に怖がらないで、すぐに使い方がわかるようになるから！"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 15
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add sailing level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

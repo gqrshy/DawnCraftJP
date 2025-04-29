@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "やあ、冒険者さん！ちょっと面白いクエストを用意したんだけど、挑戦してみる？"
+    }
+  }
+}

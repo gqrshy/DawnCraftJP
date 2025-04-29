@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0053_05",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "それで？"
+    },
+    "description": {
+      "text": "なんて傲慢なんだ。報酬のことなんて一言も言ってないだろう？ さっさと行け、少年、私が守衛を呼ぶ前に。"
+    }
+  }
+}

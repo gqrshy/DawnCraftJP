@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "退治する"
+    },
+    "description": {
+      "text": "世界に新たな諸悪が現れている。人間と獣が半分ずつの姿をした、$(red)シルバービースト$()という存在だ。夜になると、彼らはあちこちを彷徨っている。あの邪悪な存在を2匹始末して、戻ってきてくれ。"
+    }
+  }
+}

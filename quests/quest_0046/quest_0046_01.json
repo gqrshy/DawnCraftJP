@@ -1,0 +1,41 @@
+{
+  "parent": "quest_giver:quest_0046_01b",
+  "reputation": 15,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "こんにちは"
+    },
+    "description": {
+      "text": "まだ契約を終わらせていないようだね。もしかして、契約内容を忘れてしまったのかな？$(red)シルバービースト$()を2匹倒してきて。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "よくやってくれた。"
+    },
+    "description": {
+      "text": "邪悪な力がしばらく進軍を止めたのを感じるよ。でも、彼らの征服は終わることがない。次の契約を望むなら、また話しかけてくれ。"
+    }
+  },
+  "tasks": [ 
+    {
+      "entity": "bloodandmadness:silverbeast",
+      "id": "quest_giver:kill",
+      "times": 2
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 4
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

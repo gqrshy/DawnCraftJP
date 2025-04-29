@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0038_01b",
+  "reputation": 13,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "探検だ！"
+    },
+    "description": {
+      "text": "これら3つのバイオームを旅し終えたら、私のところに戻ってきてくださいね。$(yellow)Ancient Sand$()、$(yellow)Volcanic Peaks$()、$(yellow)White Mesa$()です。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "終わり"
+    },
+    "description": {
+      "text": "詳しく説明してくれてありがとう。あなたの説明をもとに描けそうな気がします。さあ、これがあなたへの報酬です。"
+    }
+  },
+  "tasks": [
+	{
+	   "id": "dawncraft:advancement",
+	   "advancement": "custom:traveller"
+	}
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 6
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_cartographer",
+      "id": "quest_giver:command"
+    }
+  ]
+}

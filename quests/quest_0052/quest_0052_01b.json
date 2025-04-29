@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 1,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "こんにちは"
+    },
+    "description": {
+      "text": "僕と友達の帽子がちょっと古くなってきてね。新しい帽子を作りたいんだ。$(red)藁の束$()を取ってきてくれないか？"
+    }
+  }
+}

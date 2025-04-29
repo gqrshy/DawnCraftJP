@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:quest_0048_01",
+  "reputation": 25,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "それで？"
+    },
+    "description": {
+      "text": "HAHAHAHA! 毒の雨を降らせてやれ！"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "さて、よくやったね。君って本当に英雄だね。それが聞きたかったんだろう？"
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "custom:begone_witch/begone_witch"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement revoke @p only custom:tricked/tricked",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:dirt"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "parent": "quest_giver:quest_0033_01b",
+  "reputation": 7,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "エキゾチックな肉"
+    },
+    "description": {
+      "text": "$(red)カンガルーの肉と皮$()は手に入れたか？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "おめでとう！"
+    },
+    "description": {
+      "text": "ああ…これがカンガルーの味か。確かに柔らかい肉だな… ただ、皮は普段使う革ほどは良くないな。でも、良いモノだ… ありがとう、冒険者。あまり渡せるものはないけど… これを受け取ってくれ、牛肉のスライスだ。今日はちょうど屠殺したばかりだから新鮮だよ！"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "alexsmobs:kangaroo_meat"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    },
+    {
+      "item": {
+        "item": "alexsmobs:kangaroo_hide"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:beef"
+      },
+      "id": "quest_giver:item",
+      "times": 4
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

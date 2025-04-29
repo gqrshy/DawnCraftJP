@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 45,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "外国の無法者"
+    },
+    "description": {
+      "text": "紙を1枚持ってきてくれる？地図を描いてあげるよ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ここだよ。"
+    },
+    "description": {
+      "text": "ここだよ、印をつけた場所に、ならず者たちが拠点を作ったんだ。それでやつらのリーダーを倒してきてほしいんだ。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:dojo \"Foreign Outlaws' Dojo\"",
+      "id": "quest_giver:command"
+    },   
+    {
+      "command": "/loot give @p loot minecraft:cartographer1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p cartographer1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

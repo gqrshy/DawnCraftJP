@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "フレンドリーなおしゃべり"
+    },
+    "description": {
+      "text": "まな板は包丁と一緒に使うと、ほとんどの食材を小さな材料に切り分けられるって知ってた？食べ物だけじゃなくて、原木や装備品みたいな他の資源でも少し実験してみる価値があるよ！"
+    }
+  }
+}

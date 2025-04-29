@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "それで？"
+    },
+    "description": {
+      "text": "エメラルド10個で、製図台の使い方を教えるよ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "さあ、どうぞ"
+    },
+    "description": {
+      "text": "テーブルの上の器具に怯える必要はないんだからね！"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 10
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add sailing level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

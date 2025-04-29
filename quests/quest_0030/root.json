@@ -1,0 +1,12 @@
+{
+  "reputation": 12,
+  "icon": "minecraft:blast_furnace",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "やあ！ ああ、オホン。こんにちは、旅人。ちょっと助けてほしいことがあるんだが！"
+    }
+  }
+}

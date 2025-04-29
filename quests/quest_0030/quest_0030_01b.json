@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 12,
+  "icon": "minecraft:iron_helmet",
+  "start": {
+    "title": {
+      "text": "聞いてくれてありがとう。"
+    },
+    "description": {
+      "text": "聞いてくれてありがとう。私の溶鉱炉が壊れそうなんだ… 　新しい$(red)溶鉱炉$()を作ってくれないか？　できたら私に渡してほしい。"
+    }
+  }
+}

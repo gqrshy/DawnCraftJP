@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "不可能な仕事!"
+    },
+    "description": {
+      "text": "サバンナにはゾウという巨大な生き物が住んでいるのを知ってる？実は、うちの仲間たちがそれを手なづけることに成功したんだ。 ...君もできると思う？ゾウを手なづけるなんて。"
+    }
+  }
+}

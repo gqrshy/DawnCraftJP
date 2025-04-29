@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 13,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "探検だ！"
+    },
+    "description": {
+      "text": "基本的にはね、いろんなバイオームがどんなところか知りたいんだ。そしたら地図に、もっと上手に描けると思ってさ。冒険好きなあなたなら、ぴったりだと思ったんだよ！今気になってるのは、$(yellow)白い断崖$()、$(yellow)古代の砂地$()、それから$(yellow)火山の頂$()の3つだよ。"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "ご挨拶を。冒険者さん、退治の契約がいくつかあるよ。"
+    }
+  }
+}

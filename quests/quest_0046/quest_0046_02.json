@@ -1,0 +1,44 @@
+{
+	"parent": "quest_giver:quest_0046_02b",
+	"reputation": 15,
+	"icon": "minecraft:paper",
+	"start": {
+		"title": {
+			"text": "こんにちは"
+		},
+		"description": {
+			"text": "まだ契約を終わらせていないようだね。もしかして、任務を忘れてしまったのかな？君の駆除任務の証として、$(red)オークの歯$()を5本持ってきてくれ。"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "よくやってくれた。"
+		},
+		"description": {
+			"text": "今のところ、君に頼む仕事はないよ。ただ、邪悪は常に近くに潜んでいることを忘れないで。気をつけておいてね。"
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "orcz:orcteeth"
+		},
+		"id": "quest_giver:gift",
+		"times": 5
+	}],
+	"rewards": [{
+			"item": {
+				"item": "minecraft:emerald"
+			},
+			"id": "quest_giver:item",
+			"times": 2
+		},
+		{
+			"command": "/advancement grant @p only custom:trade_cleric",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/give @p potion{display:{Name:'[{\"text\":\"Potion of Healing\",\"italic\":false}]'},CustomPotionEffects:[{Id:6,Duration:1,Amplifier:5}]} 1",
+			"id": "quest_giver:command"
+		}
+	]
+}

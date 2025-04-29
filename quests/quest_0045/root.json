@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "やあ、ちょっと頼んでもいいかな？ネザーから$(red)ブレイズロッド$()を5本取ってきてくれない？"
+    }
+  }
+}

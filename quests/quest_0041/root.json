@@ -1,0 +1,12 @@
+{
+  "reputation": 8,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "君、料理が得意そうだね。ちょっと頼んでもいい？「$(red)ハンバーガー$()」っていう料理があるんだけど、その作り方知ってる？"
+    }
+  }
+}

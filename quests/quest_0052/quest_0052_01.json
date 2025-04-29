@@ -1,0 +1,44 @@
+{
+	"parent": "quest_giver:quest_0052_01b",
+	"reputation": 1,
+	"icon": "minecraft:wheat_seeds",
+	"start": {
+		"title": {
+			"text": "それで？"
+		},
+		"description": {
+			"text": "もう忘れたのか？心配しないで、思い出させてあげるよ。$(red)藁の束$()が必要なんだ。"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "ありがとう！"
+		},
+		"description": {
+			"text": "藁の束、持ってきてくれたんだね。これで新しい藁帽子が作れるよ！ありがとう、旅人さん。"
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "farmersdelight:straw_bale"
+		},
+		"id": "quest_giver:gift",
+		"times": 1
+	}],
+	"rewards": [{
+			"command": "/advancement grant @p only custom:trade_farmer",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/addreputation reputation:villager @p 1",
+			"id": "quest_giver:command"
+		},
+		{
+			"item": {
+				"item": "minecraft:emerald"
+			},
+			"id": "quest_giver:item",
+			"times": 1
+		}
+	]
+}

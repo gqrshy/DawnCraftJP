@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0035_01",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Incendium"
+    },
+    "description": {
+      "text": "あ、もう戻ってきたの？ネザーには行ったかい？ネザーには灰の荒れ地っていうバイオームがあるんだ。そこで城が見つかるか見てきてほしいな。見つからなくても、戻ってきてくれればいいよ。あの場所がどんなところか知りたいんだ、お願い。"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0053_02",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "それで？"
+    },
+    "description": {
+      "text": "それで、$(red)スイートベリー$()を4つ取ってきたか？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "君は素晴らしいな、若者よ。もう一つお願いしていいか？ビートルートが2つ必要なんだ…これが最後の頼みだと約束するよ。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:sweet_berries"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ]
+}

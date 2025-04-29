@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0053_01",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "それで？"
+    },
+    "description": {
+      "text": "$(red)スイカの種$()2つは取ってきた？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "$(red)スイートベリー$()を4つも取ってきてくれないか？村人のような者には、森に行って集めるリスクは冒せないんだ。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:melon_seeds"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+    }
+  ]
+}

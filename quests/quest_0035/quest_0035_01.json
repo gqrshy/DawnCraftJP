@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0035_01b",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "包丁研ぎ"
+    },
+    "description": {
+      "text": "$(red)5個の深層岩石$()をもう集めましたか？私の刃が鈍くなっているのです。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "終了"
+    },
+    "description": {
+      "text": "よくやった！予想通り、これらの石は粗い目と細かい目の両方の研ぎ面を含んでいます。ありがとう！はい、これはあなたへの報酬です。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:deepslate"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

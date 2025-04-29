@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "時間ある?"
+    },
+    "description": {
+      "text": "ねえ、ちょっと手伝ってくれないか？すぐ終わるよ。"
+    }
+  }
+}

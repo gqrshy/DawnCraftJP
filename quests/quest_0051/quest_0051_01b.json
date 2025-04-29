@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "夢"
+    },
+    "description": {
+      "text": "野心的な農夫として、私の人生の目標は、さまざまな作物を育てる専門家になることなんだ！でも、これまでのところ小麦とジャガイモしか経験がないんだ…カボチャの種を探すのを手伝ってくれないか？そこから私の野望の征服が始まるんだ！"
+    }
+  }
+}
