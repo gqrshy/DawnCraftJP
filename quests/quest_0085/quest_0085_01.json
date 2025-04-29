@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 24,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "原木あつめ"
+    },
+    "description": {
+      "text": "$(red)深紅の茎$()は手に入ったかな？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ありがとう！今、エメラルドは手元にないけど…このダイヤモンドのピッケルを受け取ってくれる？  数時間前に作ったばかりなんだ。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:crimson_stem"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:diamond_pickaxe"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_toolsmith",
+      "id": "quest_giver:command"
+    }
+  ]
+}

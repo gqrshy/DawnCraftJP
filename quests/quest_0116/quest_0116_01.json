@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0116_01b",
+  "reputation": 10,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "オファー"
+    },
+    "description": {
+      "text": "4エメラルドで、イグニスを召喚するために必要な素材の場所を教えてあげるよ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "これが地図だよ。絶対にこの村の近くであの怪物を召喚しないでくれ。   そして覚えておいて、この地図はネザーで開かないと意味がないんだ。なんでかは私にもわからないけどね…。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "amount": 4
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:rolled_map_2"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/gamestage add @p netherian3 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

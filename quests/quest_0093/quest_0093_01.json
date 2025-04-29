@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 50,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "ヘルプ"
+    },
+    "description": {
+      "text": "エンドの奥深くには、隠れた生き物が住んでるんだ――その名も『ヴォイドワーム』。　　　エンドの深淵に幼虫を投げ込めば、呼び出せるらしいよ。幼虫はクリムゾンモスキートの幼虫をエンダリオファージのキャプシドに投げ込むと作れるんだって！"
+    }
+  }
+}

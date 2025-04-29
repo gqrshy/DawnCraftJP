@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0115_01b",
+  "reputation": 10,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "オファー"
+    },
+    "description": {
+      "text": "ネザーのモンストロシティの場所を教えてほしいなら、6エメラルドでどうだい？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ありがとう、狩りを楽しんで！   覚えておいて、この地図はネザーで開かないと意味がないからね。ちょっと混乱するだろうけど、頑張って！"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "amount": 6
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:rolled_map_1"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/gamestage add @p netherian2 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

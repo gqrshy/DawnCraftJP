@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:poppy",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "もし見かけたら、$(red)オレンジボールサボテン$()1個、分けてもらえないかな？"
+    }
+  }
+}

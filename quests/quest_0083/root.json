@@ -1,0 +1,12 @@
+{
+  "reputation": 13,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "おお、旅人さん、探し物が得意みたいだね！ちょっと手伝ってくれないかな？"
+    }
+  }
+}

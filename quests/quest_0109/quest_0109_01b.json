@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 6,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "help"
+    },
+    "description": {
+      "text": "私たちの村の近くに拠点を作った襲撃者たちが、子供をさらっていったんだ…。この村の守衛では子供を救うために急襲するには力不足だ。もし手伝ってくれるなら、紙を1枚持ってきてくれ。そこに彼らの場所を示すから。"
+    }
+  }
+}

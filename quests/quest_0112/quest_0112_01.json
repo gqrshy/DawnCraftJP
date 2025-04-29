@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0112_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "それで？"
+    },
+    "description": {
+      "text": "紙を1枚持ってきてくれ。地図を描いてあげるよ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "この辺りにその生き物が住んでいるはずだよ。気をつけてね。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+	{
+		"command": "/dc addWaypoint @p custom:wolf_hideout \"Miner's Request - Creature Extermination\"",
+		"id": "quest_giver:command"
+	},    
+    {
+      "command": "/loot give @p loot minecraft:miner2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p miner2 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

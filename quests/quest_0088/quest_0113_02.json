@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0113_01",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Hello again!"
+    },
+    "description": {
+      "text": "$(red)宝石$()、手に入れた？ もしかしたら、あの生き物を…　　　倒さないと無理かもね」"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "面白い。"
+    },
+    "description": {
+      "text": "これはすごい。まったく…　驚いたな。ちょっと時間が欲しいところだ。木の棒を持ってきてくれない？ 君に、何か特別なものを作れるかもしれない…"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "simple_mobs:gem_item"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ]
+}

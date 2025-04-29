@@ -1,0 +1,12 @@
+{
+  "reputation": 12,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "仲間が城に引っ越して、Createの装置を使って暮らしてるって聞いたんだ。もしどこかで見かけたら、どんな場所だったか教えてくれないかな？"
+    }
+  }
+}

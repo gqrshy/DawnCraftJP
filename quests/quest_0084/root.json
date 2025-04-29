@@ -1,0 +1,12 @@
+{
+  "reputation": 5,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "やあ、ツールを作るためにネザライトインゴットが必要なんだ。もし余っているものがあれば、譲ってくれないかな？もちろん、代金は払うよ。"
+    }
+  }
+}

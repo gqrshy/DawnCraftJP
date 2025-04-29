@@ -1,0 +1,12 @@
+{
+  "reputation": 3,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "ルアーの材料集めを手伝ってくれる？"
+    }
+  }
+}

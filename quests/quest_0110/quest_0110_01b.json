@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 16,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "ヘルプ"
+    },
+    "description": {
+      "text": "近くの洞窟に$(red)洞窟の住人$()という生き物が住んでいるんだ。非常に危険で、神官たちはいつか地下から出てきて私たち全員を殺すだろうと言っている…。奴を駆除して、$(red)その残骸の一部$()を証拠として持ち帰ってくれ。"
+    }
+  }
+}

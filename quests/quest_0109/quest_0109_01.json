@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0109_01b",
+  "reputation": 6,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "また会ったね！"
+    },
+    "description": {
+      "text": "子供を救う準備ができたら、紙を1枚くれ。地図を描いてあげるよ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ここだよ。"
+    },
+    "description": {
+      "text": "悪党どもがここに拠点を作ったんだ。子供をまだ連れているはず…　お願いだ、急いでほしい！子供を私たちのもとに戻してくれ！"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+	{
+		"command": "/dc addWaypoint @p quest_giver:pillager_base \"Rescue Request - Pillager Base\"",
+		"id": "quest_giver:command"
+	}, 
+    {
+      "command": "/loot give @p loot minecraft:guard2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guard2 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

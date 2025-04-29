@@ -1,0 +1,12 @@
+{
+  "reputation": 50,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "こんにちは、冒険者さん。お話を聞いてくれない？"
+    }
+  }
+}

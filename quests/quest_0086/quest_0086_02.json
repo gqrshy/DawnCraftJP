@@ -1,0 +1,42 @@
+{
+  "parent": "quest_giver:quest_0086_02b",
+  "reputation": 37,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "駆除契約"
+    },
+    "description": {
+      "text": "駆除契約を終えたら戻ってきてね - $(red)ピリジャーを5匹倒す$()んだよ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ありがとう… とうとうその時が来てしまったんだな。ピリジャーがやってきた。　　　この大剣を君のために鍛えたんだ。うまく使ってくれ。私たちの命は君にかかっているんだ。"
+    }
+  },
+  "tasks": [
+    {
+      "entity": "minecraft:pillager",
+      "id": "quest_giver:kill",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/effect give @p minecraft:bad_omen 10 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/give @p epicfight:iron_greatsword{Enchantments:[{id:\"apotheosis:bane_of_illagers\",lvl:3}]}",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

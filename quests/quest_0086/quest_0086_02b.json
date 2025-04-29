@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0086_01",
+  "reputation": 37,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "ヘルプ"
+    },
+    "description": {
+      "text": "よしきた。見つけたピリジャーはすべて倒してほしいんだ。彼らの攻撃計画を立てる時間を少しでも減らすために、気を引きつけるんだ。5匹ぐらい倒したら戻ってきてくれ。"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0110_01",
+  "reputation": 16,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "それで？"
+    },
+    "description": {
+      "text": "洞窟の住人を駆除したかい？もしそうなら、奴の落とし物を持ってきてくれ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "こんなに硬い皮膚を持つ生き物がいるなんて不思議だね…　　　でも、あいつが死んでよかった。 ほら、これで感謝の気持ちを込めて、新しいスキル「デュアルグレートソード」を教えるよ。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:dweller_armor_fragment"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:\"efdg:dualgreatsword\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

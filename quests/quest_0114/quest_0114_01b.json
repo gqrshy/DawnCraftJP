@@ -1,0 +1,11 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 16,
+	"icon": "minecraft:iron_pickaxe",
+	"start": {
+		"title": {
+			"text": "ヘルプ"
+		},
+		"description": "ハハ、やっぱりな！勇敢な冒険者よ、もし迷路のような氷のバイオームに出くわしたら、$(red)キャプテン・コーネリアの幽霊$()を探してみてくれ。もし近接戦で倒すことができたら、豪華な報酬を与えるよ。"
+	}
+}

@@ -1,0 +1,45 @@
+{
+  "parent": "quest_giver:quest_0112_01",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "また会ったね！"
+    },
+    "description": {
+      "text": "やったかい？$(red)人狼$()を倒したか？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "助かるよ。"
+    },
+    "description": {
+      "text": "ありがとう。 今後、このような恐ろしい怪物の犠牲になる人がいなくなることが分かってよかった。"
+    }
+  },
+  "tasks": [
+    {
+      "entity": "simple_mobs:patronwerewolf",
+      "id": "quest_giver:kill",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 6
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_miner",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "それで？"
+    },
+    "description": {
+      "text": "$(red)16本の矢$()、弓の職人から手に入れたかい？お金はちゃんと返すからね。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "助かったよ！地元の弓の職人とはあまり得意じゃないから、お願いするのがちょっと気まずかったんだ…。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:arrow"
+      },
+      "id": "quest_giver:item_stack",
+      "amount": 16
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 3
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_hunter",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

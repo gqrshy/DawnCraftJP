@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 13,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "貴重なアイテム"
+    },
+    "description": {
+      "text": "その場所に行って鉄の斧を取ってきてくれないか？あの場所はオークに囲まれてしまって、置いてきてしまったんだ…。ちょっと待ってて、紙を持ってきてくれたら、地図を描くよ。"
+    }
+  }
+}

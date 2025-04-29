@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "坊主、$(red)フロストブライトの原木$()を1つ取ってきてくれないか？エバーブライトで見つかるはずだよ。"
+    }
+  }
+}

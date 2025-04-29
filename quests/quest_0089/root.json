@@ -1,0 +1,12 @@
+{
+  "reputation": 4,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "...実はハチミツに目がないんだ。恥ずかしいけど、ハチミツ入りの瓶を一本くれない？"
+    }
+  }
+}

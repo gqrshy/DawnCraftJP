@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 37,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "緊急のお願い"
+    },
+    "description": {
+      "text": "邪悪が近づいている。16個の鉄インゴットを手に入れてくれる？守備隊のために武器をもっと作らないといけなくて…　　　準備が整ってないんだ。"
+    }
+  }
+}

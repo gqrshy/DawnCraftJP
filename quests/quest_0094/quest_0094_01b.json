@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 52,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "ヘルプ"
+    },
+    "description": {
+      "text": "エネゲルパスタっていう料理があるんだ。エンドの世界でしか手に入らない材料を使わないと作れない特別な料理さ…。どうか全部そろえて、ボクのために作ってくれないかな。"
+    }
+  }
+}

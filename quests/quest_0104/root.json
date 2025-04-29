@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "やあ、地元の弓の職人から$(red)16本の矢$()を手に入れてくれる？お金はちゃんと返すからね。"
+    }
+  }
+}

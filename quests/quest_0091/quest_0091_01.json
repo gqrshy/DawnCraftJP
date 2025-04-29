@@ -1,0 +1,51 @@
+{
+  "parent": "quest_giver:quest_0091_01b",
+  "reputation": 46,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "So?"
+    },
+    "description": {
+      "text": " $(red)ドラゴンの卵$()を手に入れたら、ぜひ見せてくれないかな…？ いつか見てみたいって、ずっと夢見てたんだ"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "へぇ～、これがあの…。実はこの$(red)ドラゴンの卵$()、置くと孵化するって知ってた？　ほら、育て方教えてあげよっか。魚をいっぱい与えるだけ…　簡単でしょ？"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:dragon_egg"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:dragon_egg"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_enderian",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add taming level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 3,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "ヘルプ"
+    },
+    "description": {
+      "text": "$(red)ヘムロック$()の苗2つが必要なんだ。 たいていの動物には毒性が強すぎるが、私が狩っている下劣な獣には効かない......。"
+    }
+  }
+}

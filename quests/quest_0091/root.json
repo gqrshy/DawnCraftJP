@@ -1,0 +1,12 @@
+{
+  "reputation": 46,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "ねえ、冒険者さん…エンダードラゴンを倒したら、ちょっとお願いがあるんだけど…"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "オファー"
+    },
+    "description": {
+      "text": "ネザーで、巨大なゴーレムが住んでいる奇妙な構造物を見つけたんだ。6エメラルドをくれたら、その場所を地図に示してあげるよ。"
+    }
+  }
+}

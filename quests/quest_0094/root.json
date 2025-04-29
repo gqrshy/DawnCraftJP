@@ -1,0 +1,12 @@
+{
+  "reputation": 52,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "やあ、冒険者さん。キミにしか作れないんじゃないかって思ってる料理があるんだ。報酬はたっぷり用意してるよ、どうかな？"
+    }
+  }
+}

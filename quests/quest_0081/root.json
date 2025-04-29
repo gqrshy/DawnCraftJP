@@ -1,0 +1,12 @@
+{
+  "reputation": 2,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "こんにちは！農場から成長した小麦を2つ取ってきてくれるかな？羊毛のために繁殖させる必要があるんだ。"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "それで？"
+    },
+    "description": {
+      "text": "$(red)フロストブライトの原木$()、手に入れたかい？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ありがとう。 ご褒美です。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "blue_skies:frostbright_log"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_woodworker",
+      "id": "quest_giver:command"
+    }
+  ]
+}

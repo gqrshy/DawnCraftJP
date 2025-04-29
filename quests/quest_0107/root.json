@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "$(red)ダスクの原木$()を1つ取ってきてくれないか？エバーダウンで見つかるはずだよ。"
+    }
+  }
+}

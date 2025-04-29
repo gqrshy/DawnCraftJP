@@ -1,0 +1,12 @@
+{
+  "reputation": 24,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "こんにちは！ネザーから深紅の茎を取ってきてくれる？ 特別な柄のツールを作りたくてね。"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0111_01",
+  "reputation": 13,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "それで？"
+    },
+    "description": {
+      "text": "ジャイアントを駆除したかい？もしそうなら、そのドロップを持ってきてくれ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "よくやった！これがあいつの目だね…。報酬として、戦闘スキル「デモリッションリープ」を教えるよ。このスキルは戦闘中の機動力を大幅にアップさせるんだ！"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:giant_eye_fragment"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:demolition_leap\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

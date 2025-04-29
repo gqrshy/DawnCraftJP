@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 12,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "それで？"
+    },
+    "description": {
+      "text": "説明がふわっとしててごめんね…でも問題は、どこにあるのかも、どんな見た目なのかも分からないってことなんだ。村人の城で、Createの装置があるやつなんだけど…見たらきっと分かると思うよ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "それは興味深いね！でも、あの村人たちが自分たちであれを作ったとは思えないな。エンジニアっぽい人もいなかったし…　　　誰かがあそこに閉じ込められてるんじゃないかな。まあ、とにかくありがとう！これ、クッキーだよ。"
+    }
+  },
+  "tasks": [
+	{
+	   "id": "dawncraft:advancement",
+	   "advancement": "custom:castle"
+	}
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:cookie"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

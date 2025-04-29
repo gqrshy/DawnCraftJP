@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:honey_bottle",
+  "start": {
+    "title": {
+      "text": "ハニー？"
+    },
+    "description": {
+      "text": " $(red)ハチミツ入りの瓶$()?、もう手に入れた？　あの甘〜い蜜が、実はすごい効能があるんだよね…"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "うわっ、久しぶりにこんな美味いハチミツ飲んだ！ありがとね！"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:honey_bottle"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_weaponsmith",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

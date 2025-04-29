@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 46,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "ヘルプ"
+    },
+    "description": {
+      "text": "実はエンダードラゴン倒すと$(red)ドラゴンの卵$()が手に入るんだよね...　　　その卵ちょっと見せてもらえないかな？お願い！"
+    }
+  }
+}
