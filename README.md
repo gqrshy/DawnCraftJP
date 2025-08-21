@@ -1,6 +1,6 @@
 # DawnCraftJP
-大型modpackであるDawnCraft - 2.0.15(2025 4/29時点で最新)の日本語化ファイルです。
-> 翻訳には「Claude 3.7　Sonnet」を利用しています。
+大型modpackであるDawnCraft - 2.0.15(2025 8/21時点で最新)の日本語化ファイルです。
+> 翻訳には「Claude 4.1　Sonnet」を利用しています。
 
 ## 概要
 
